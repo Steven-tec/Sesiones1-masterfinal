@@ -3,16 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Manejo de Sesiones</title>
-    <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-<h1>Manejo de Sesiones</h1>
-<ul class="menu">
-    <li><a href="/prManejodeSesiones/productos">mostrar productos</a></li>
-    <li><a href="/prManejodeSesiones/login.html">Login</a></li>
-    <li><a href="/prManejodeSesiones/logout">Cerrar Sesion</a></li>
-    //hacer boton eliminar activar desactivar y hacer un jsp que cree una tabla donde puede mostrar toda esta informacion de la lista de categorias
+<body class="container py-5">
+
+<h1 class="text-center mb-4">Manejo de Sesiones</h1>
+
+<ul class="menu list-group">
+    <li class="list-group-item">
+        <a href="/prManejodeSesiones/productos" class="btn btn-outline-primary w-100">Mostrar productos</a>
+    </li>
+    <li class="list-group-item">
+        <a href="/prManejodeSesiones/login.html" class="btn btn-outline-success w-100">Login</a>
+    </li>
+    <li class="list-group-item">
+        <a href="/prManejodeSesiones/logout" class="btn btn-outline-danger w-100">Cerrar Sesión</a>
+    </li>
+    <li class="list-group-item text-muted">
+        <!-- Comentario visible solo para desarrolladores -->
+        hacer botón eliminar, activar/desactivar y un jsp que muestre la lista de categorías
+    </li>
 </ul>
 
 </body>
